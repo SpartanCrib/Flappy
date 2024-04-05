@@ -7,7 +7,7 @@
 
 .background {
 	height: 100vh;
-	width: 100vw; /* Corrected 'vh' to 'vw' */
+	width: 100vw;
 	background: url('images/background-img.png') no-repeat center center fixed;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -21,7 +21,7 @@
 	position: fixed;
 	top: 40vh;
 	left: 30vw;
-	z-index: 3; /* Corrected 'cover' to '1' */
+	z-index: 3;
 }
 
 .pipe_sprite {
@@ -53,7 +53,7 @@
 }
 
 .score {
-	position: fixed; /* Corrected 'scire' to 'score' */
+	position: fixed; 
 	z-index: 10;
 	height: 10vh;
 	font-size: 10vh;
@@ -72,9 +72,9 @@
 	font-weight: bold;
 }
 
-@media only screen and (max-width: 1080px) { /* Corrected 'max-with' to 'max-width' */
+@media only screen and (max-width: 1080px) {
 	.message {
-		font-size: 50px; /* Added 'px' */
+		font-size: 50px; 
 		top: 50%;
 		white-space: nowrap;
 	}
